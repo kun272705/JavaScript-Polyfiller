@@ -17,11 +17,11 @@ build_js() {
 
     if [[ "${NODE_ENV:-production}" == development ]]; then
 
-      cp target/polyfill.bundled.js target/polyfill.js
+      cp tgt/polyfill.bundled.js tgt/polyfill.js
     else
 
       npx terser "${output/%.js/.bundled.js}" -o "${output/%.js/.compressed.js}" -c -m
-      cp target/polyfill.compressed.js target/polyfill.js
+      cp tgt/polyfill.compressed.js tgt/polyfill.js
     fi
   fi
 }

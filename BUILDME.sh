@@ -8,6 +8,6 @@ npm install
 
 vim .browserslistrc
 
-build_js source/polyfill.js target/polyfill.js
+build_js src/polyfill.js tgt/polyfill.js
 
 echo -e "\nDone"
