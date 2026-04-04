@@ -2,9 +2,9 @@
   "name": "javascriptpolyfiller",
   "version": "1.0.0",
   "devDependencies": {
-    "@rollup/plugin-commonjs": "^29.0.0",
+    "@rollup/plugin-commonjs": "^29.0.2",
     "@rollup/plugin-node-resolve": "^16.0.3",
-    "@swc/cli": "^0.8.0",
+    "@swc/cli": "^0.8.1",
     "@swc/core": "^1.15.21",
     "core-js": "^3.49.0",
     "regenerator-runtime": "^0.14.1",
