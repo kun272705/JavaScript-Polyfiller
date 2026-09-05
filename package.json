@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "devDependencies": {
     "@swc/cli": "^0.8.1",
-    "@swc/core": "^1.16.1",
+    "@swc/core": "^1.16.2",
     "core-js": "^3.50.0",
     "regenerator-runtime": "^0.14.1",
     "rolldown": "^1.2.7"
